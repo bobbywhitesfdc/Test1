@@ -17,7 +17,7 @@ global class JHPostSandboxScript implements SandboxPostCopy {
                             and isActive = true];
 
      List<User> toUpdate = new List<User>();
-     System.debug('Count of emails needing repair=' + users.size());
+     System.debug('Count of emails needing repair:' + users.size());
      
      for (User current : users) {
          // initial = 'namepart=domainpart@example.com'
