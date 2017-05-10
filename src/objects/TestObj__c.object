@@ -203,6 +203,16 @@
         <type>Currency</type>
     </fields>
     <fields>
+        <fullName>MyDate__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <description>Just a Date Field</description>
+        <externalId>false</externalId>
+        <label>MyDate</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Url1__c</fullName>
         <description>Just a URL field</description>
         <externalId>false</externalId>

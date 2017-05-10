@@ -286,9 +286,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.AccountSource</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1768,6 +1768,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>TestObj__c.Money1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TestObj__c.MyDate__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
