@@ -1,7 +1,9 @@
+/**
+ * Post Sandbox Copy Script
+ **/ 
 global class JHPostSandboxScript implements SandboxPostCopy {
   global void runApexClass(SandboxContext context) {
       System.debug('JH Post Sandbox Activation Script: ' + context.organizationId() + ' ' + context.sandboxId() + '' + context.sandboxName());
-      
       fixUpEmailAddresses();
       
 }

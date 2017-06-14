@@ -1,3 +1,6 @@
+/**
+ * Test for JHPostSandboxScript
+ **/ 
 @istest
 public class JHPostSandboxScript_Test {
 
@@ -37,9 +40,9 @@ public class JHPostSandboxScript_Test {
                              and isActive = true 
                              and email like '%=%@example.com'
                              and (NOT email like '%=example.com@example.com')];
-       for (User current : afterAdmins) {
-           System.debug('after SBScript:' + current.email);
-       }
+      for (User current : afterAdmins) {
+         System.debug('after SBScript:' + current.email);
+      }
       System.assertEquals(afterAdmins.size(),0,'All Active Admin Email addresses should be unscrambled!');
    }
 }
